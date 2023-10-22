@@ -1,0 +1,130 @@
+:root {
+    --second-color: linear-gradient(to bottom, rgba(61, 15, 226, 0.856), white);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 17em;
+    height: 20em;
+    padding-top: 1em;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(to bottom, rgba(61, 15, 226, 0.856) 10%, white 30%);
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 0.377);
+    border-radius: .5em;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px rgba(255, 255, 255, 0.555);
+}
+
+header {
+    background-color: rgba(108, 11, 218, 0.781);
+    height: 1px;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.picture img {
+width: 6rem;
+height: 6rem;
+border-radius: 50%;
+}
+
+.box1 {
+    display: block; 
+    margin-top: .5em;
+    font-size: 12px;
+    text-align: center;
+}
+
+.box1 h1 {
+    font-weight: 600;
+    text-shadow: 1px 1px 4px rgb(59, 56, 56);
+}
+
+.box1 h2 {
+    font-weight:500;
+}
+
+.box2 {
+    margin-top: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 img {
+    width: 50px;
+    height: 35px;
+}
+
+.box3 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+    
+}
+
+
+.box3 a {
+    background-image: var(--second-color);
+    width: 8em;
+    margin-right: .7em;
+    padding: 5px;
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border-radius: .5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px white;
+    box-shadow: 2px 2px 2px rgba(11, 11, 109, 0.466);
+    
+}
+
+.box3 input {
+    background-image: var(--second-color);
+    width: 9em;
+    border: 0;
+    font-weight: 700;
+    color: black;
+    padding: .6em;
+    border-radius: .5em;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 4px white;
+    box-shadow: 2px 2px 2px rgba(11, 11, 109, 0.466);
+    
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.5em;
+    font-size: .8em;
+    font-weight: 600;
+}
+
+.box4 img {
+    width: 1.3em;
+}
